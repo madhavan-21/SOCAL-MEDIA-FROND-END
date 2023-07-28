@@ -9,29 +9,29 @@ const LoginPage = () => {
 
     return (
         <Box>
-            <Box 
-            width="100%"
-            backgroundColor={theme.palette.background.alt}
-            p='1rem 6%'
-            textAlign="center"
-            
+            <Box
+                width="100%"
+                backgroundColor={theme.palette.background.alt}
+                p='1rem 6%'
+                textAlign="center"
+
             >
                 <Typography
                     fontWeight="bold"
                     fontSize="32px"
                     color="primary"
-                >Socilize</Typography>
+                >Socialize</Typography>
             </Box>
             <Box
-            width={isNonMobileScreens?"50%":"93%"}
-            p="2rem"
-            m="2rem auto"
-            borderRadius="1.5rem"
-            backgroundColor={theme.palette.background.alt}
+                width={isNonMobileScreens ? "50%" : "93%"}
+                p="2rem"
+                m="2rem auto"
+                borderRadius="1.5rem"
+                backgroundColor={theme.palette.background.alt}
             >
-                <Typography fontWeight="500" varient="h5" sx={{mb:"1.5rem"}}
+                <Typography fontWeight="500" varient="h5" sx={{ mb: "1.5rem" }}
                 >
-                Welcome to Socilize,the Social media for Sociopaths!
+                    Welcome to Socialize,the Social media for Sociopaths!
                 </Typography>
                 <Form></Form>
 
