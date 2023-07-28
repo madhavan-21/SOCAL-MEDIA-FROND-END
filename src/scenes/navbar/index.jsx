@@ -47,7 +47,7 @@ const Navbar = () => {
               curser: "pointer",
             }
           }}
-        >Socilize</Typography>
+        >Socialize</Typography>
         {isNonMobileScreens && (
           <FlexBetween backgroundColor={neutralLight} borderRadius="9px" gap="3rem" padding="0.1rem 1.5rem">
             <InputBase placeholder="Serach....." />
