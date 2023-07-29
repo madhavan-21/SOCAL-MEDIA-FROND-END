@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
                 width={size}
                 height={size}
                 alt='user'
-                src={`https://sm-backend-i34e.onrender.com/public/assets/${image}`}
+                src={`https://sm-backend-i34e.onrender.com/assets/${image}`}
             />
 
         </Box>
